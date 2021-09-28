@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    margin-top: 0%;
+    border: 1px solid;
+    width: 100%;
+    border-style: hidden;
+    text-align: center;
+    background: linear-gradient(to right,red,green,yellow);
+}
+.nav{
+    margin-top: 18px;
+    border: 2px solid red;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px solid red;
+    width: 100%;
+    border-radius: 10px;
+    height: 140px;
+    background-color: lightyellow;
+}
+.box{
+    border: 1px solid green;
+    background-color: lightcyan;
+    border-radius: 10px;
+    height: 64px;
+    width: 383px;
+}
+.box4{
+    margin-left: 568px;
+    margin-bottom: 8px;
+}
+.header1{
+    margin-top: 10px;
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+    border-style: hidden;
+    text-align: center;
+    background: linear-gradient(to right,red,yellow,red);
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid green;
+    margin-top: 15px;
+    height: 300px;
+    width: 100%;
+    background: radial-gradient(blue,green);
+}
+.b1{
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    height: 100px;
+    width: 180px;
+    margin-top: 7%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 10%;
+    margin-top: 20px;
+}
+.gridd{
+    border: 1px solid;
+    margin: 7px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.grid1{
+    grid-column: 1/5;
+    background-color: red;
+}
+.grid2{
+    background-color: greenyellow;
+}
+.grid3{
+    background-color: blue;
+}
+.grid4{
+    background-color: teal;
+}
+.grid5{
+    grid-row: 2/4;
+    grid-column: 4;
+    background-color: black;
+    text-align: start;
+}
+.grid6{
+    grid-column: 1/4;
+    background-color: orange;
+}
+.grid7{
+    grid-column: 1/5;
+    background-color: lightblue;
+}
